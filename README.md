@@ -1,11 +1,13 @@
 read me first
 ==== 
-draft to schedule of easy python exercises for internal use.
+draft schedule of easy python exercises for internal use for the data science team.
 
 # introduction
-the data science team generally relies on python for programming. the team members have very varied experience with programming and with python, and also have varied needs to working in python. nevertheless, a certain legel we all want to improve something. these exercises are meant to present some useful features of python to inepxerienced users. it may not suit absolute beginners without slight modifications. we assume participants have python 3.7+ installed and ready to use, as well as their favourite text editor. our code will not be backwards compatible with python 2.x.
+the data science team generally relies on python for programming. the team members have very varied experience with programming and with python, and also have varied needs to working in python. nevertheless, we should all be able "speak python" to a certain minimal level. these exercises are meant to present some useful features of python to inepxerienced users. it is not aimed at absolute beginners. 
 
-## notes on git
+## prerequisites
+we assume participants have python 3.7+ installed and ready to use, as well as their favourite text editor and browser. the code examples will not be backwards compatible with python 2.x.
+
 this course assumes the participants can use git, but does not cover how to. matthew franglen (@matthew on slack) wrote a nice short [workshop on git](https://gitlab.com/matthewfranglen/version-control-presentation/tree/master) that might be helpful. 
 
 ```
@@ -15,6 +17,9 @@ git commit
 git remote add origin https://github.com/oh-data-sci/python_exercises.git
 git push -u origin master
 ```
+
+## warning
+no sage on stage. at best guide to the side. 
 
 # exercises
 the design goal of each exercise is that they are short enough to be discussed with participants in a 30 minute session, and yet complete enough that the participants can then complete a simple 30 minute task to test their understanding of the feature.
@@ -59,6 +64,12 @@ the design goal of each exercise is that they are short enough to be discussed w
 - explore
 - write
 
+## read write pickle files 
+- import pickle
+- pickle.dump() (repeatedly)
+- pickle 'pointer chains'
+- pickle.load() (repeatedly)
+
 ## data manipulation (pipelines)
 - pandas data frames
 - filter
@@ -91,6 +102,12 @@ the design goal of each exercise is that they are short enough to be discussed w
 - details, details
 - bw may not have style guide?
 - 
+
+## regular expressions
+- a bit out of scope but also important
+- lots of useful exercises available
+- huge topic, really.
+
 
 # solutions
 participants in the tutorial can add their solutions/musings/code into a self-named sub-folder in the `solutions` folder.
