@@ -1,16 +1,23 @@
 read me first
 ==== 
-starting to write easy python exercises for internal use.
+draft to schedule of easy python exercises for internal use.
 
 # introduction
-the data science team generally uses python for all its work. the team members have very varied experience and needs with working in python. nevertheless, we all want to improve something. these exercises are meant to present some useful features of python to inepxerienced users. it may not suit absolute beginners without slight modifications. we assume participants have python 3.7+ installed and ready to use, as well as their favourite text editor. our code will not be backwards compatible with python 2.x.
+the data science team generally relies on python for programming. the team members have very varied experience with programming and with python, and also have varied needs to working in python. nevertheless, a certain legel we all want to improve something. these exercises are meant to present some useful features of python to inepxerienced users. it may not suit absolute beginners without slight modifications. we assume participants have python 3.7+ installed and ready to use, as well as their favourite text editor. our code will not be backwards compatible with python 2.x.
 
 ## notes on git
-this course does not cover how to use git, but assumes the participants can. matthew franglen (@matthew) wrote a nice short [workshop on git](https://gitlab.com/matthewfranglen/version-control-presentation/tree/master) that might be helpful. 
+this course assumes the participants can use git, but does not cover how to. matthew franglen (@matthew on slack) wrote a nice short [workshop on git](https://gitlab.com/matthewfranglen/version-control-presentation/tree/master) that might be helpful. 
+
+```
+git init
+git add * 
+git commit 
+git remote add origin https://github.com/oh-data-sci/python_exercises.git
+git push -u origin master
+```
 
 # exercises
-the design goal of each of the exercises is that they can be discussed with participants in a 30 minute session and then the participants get a task (homework) to test their understanding of the feature.
-
+the design goal of each exercise is that they are short enough to be discussed with participants in a 30 minute session, and yet complete enough that the participants can then complete a simple 30 minute task to test their understanding of the feature.
 
 ## jupyter notebooks
 - installation
@@ -18,16 +25,12 @@ the design goal of each of the exercises is that they can be discussed with part
 - using (modes, keyboard shortcuts, starting and stopping executions, error handling)
 - comparison with using the command line interface
 - viewing/saving/updating notebook documents
+- exercise: set up your environment
 
-## python style guide
-- do we need this?
-- details, details
-- bw may not have style guide?
-
-## the various iterators
+## the iterators
+- lambda functions
 - `map()`, `filter`
 - `[]` list iterator
-- lambda functions
 - `()` itereator
 - `next()`
 
@@ -61,8 +64,11 @@ the design goal of each of the exercises is that they can be discussed with part
 - filter
 - select
 - mutate
+
+## data manipulation (pipelines) 2
 - group by
 - summarise
+- exercise
 
 ## text cleaning exercise
 - change case
@@ -72,15 +78,22 @@ the design goal of each of the exercises is that they can be discussed with part
 
 ## simple plots
 - ? (do not know much about plotting with python)
-- need to look into matplotlib
-- need to look into plotly
-- need to look into dash
+- i need to look into matplotlib
+- i need to look into plotly
+- i need to look into dash
+- exercise : reproduce a plot with shared data and output to pdf
 
 ## spacy/nltk
+- ??
 
+## python style?
+- do we need to discuss this?
+- details, details
+- bw may not have style guide?
+- 
 
 # solutions
 participants in the tutorial can add their solutions/musings/code into a self-named sub-folder in the `solutions` folder.
 
 # notes
-a list of documents and links to other documents explaining features discussed in greater detail.
+a list of documentation and links to helpful sources explaining features discussed in greater detail.
