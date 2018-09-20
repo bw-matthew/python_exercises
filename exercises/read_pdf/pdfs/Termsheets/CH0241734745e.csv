@@ -1,0 +1,36 @@
+Keep-Well Agreement,"With Bank Vontobel AG, Zurich (is subject to the supervision of the Swiss Financial Market Supervisory"
+"","Authority FINMA, Moody's A2; see its complete wording in the Issuance Programme)"
+Garant,"Vontobel Holding AG, Zürich (Moody's A3)"
+Lead Manager,"Bank Vontobel AG, Zurich"
+Paying and Calculation Agent,"Bank Vontobel AG, Zurich"
+SSPA product type,"Express Certificate (1 260),  see also www.svsp-verband.ch"
+"",
+Underlying,Adecco SA
+"",Holcim Ltd.
+"",Sanofi SA
+"",(further details on the underlyings see below)
+"",
+Issue price,CHF 1000.00
+Notional,CHF 1000.00
+"",
+Strikes/Barriers,Underlying Strike Barrier (in %) Ratio
+"",Adecco SA CHF 76.15 (100%) CHF 53.31 (70%) 13.13198
+"",Holcim Ltd. CHF 75.30 (100%) CHF 52.71 (70%) 13.28021
+"",Sanofi SA EUR 91.35 (100%) EUR 63.95 (70%) *
+"",
+Early Redemption Levels/Coupon Levels,Underlying Early Redemption Level (in%) Coupon Level (in%)
+"",Adecco SA CHF 72.34 (95%) CHF 60.92 (80%)
+"",Holcim Ltd. CHF 71.54 (95%) CHF 60.24 (80%)
+"",Sanofi SA EUR 86.78 (95%) EUR 73.08 (80%)
+Number of underlyings,The number of underlyings per Express VONCERT Phoenix will be calculated at final fixing according the
+"",following formula:
+"",Notional / (Strike x Forex (Final fixing))
+"",where:
+"",Forex (Final fixing) is the exchange rate EURCHF at final fixing as observed on the relevant Fixing
+"",page (No. of units of CHF for one unit EUR).
+Fixing page,"EURCHF, published by the European Central Bank and available at the Reuters page ECB37."
+"",
+Barrier monitoring,"At final fixing, May 19, 2020 (closing prices)"
+"",
+Initial Fixing,"May 19, 2015, closing prices"
+Payment date,"May 26, 2015"

@@ -1,0 +1,32 @@
+Coupon Levels on a Monit,"oring Date, a Coupon with a memory effect is paid out. Memory effect means that Coupon"
+payments which are not m,ade may be provided at a later Date of Payment. If all Underlyings close at or above their
+Autocall Levels on a Moni,"toring Date, the product is repaid early. Together with the Nominal Value, a Coupon with a"
+memory effect is paid out,"which is calculated on the relevant Monitoring Date. If no early redemption has been made, the"
+following settlement cond,itions shall apply upon maturity: A redemption at the Nominal Value is guaranteed as long as
+the Underlyings have not,touched their Barriers during the relevant Barrier monitoring. If at Final Fixing all the
+Underlyings are higher tha,"n the respective Barriers, the Nominal Value is repaid. If at Final Fixing at least one of the"
+Underlyings is lower than,"or equal to the corresponding Barrier, the investor receives the delivery of the Underlying with"
+the poorest performance,"or a cash compensation, corresponding to the closing price of this Underlying (for details see"
+"""Redemption/Delivery"").",
+Product Information,
+Issuer,"Vontobel Financial Products Ltd., DIFC Dubai (no rating)"
+Keep-Well Agreement,"With Bank Vontobel AG, Zurich (Moody's Counterparty Risk Assessment A2 (cr))"
+Guarantor,"Vontobel Holding AG, Zurich (Moody's A3)"
+Lead Manager,"Bank Vontobel AG, Zurich"
+Paying and Calculation agent,"Bank Vontobel AG, Zurich"
+SSPA Product Type,"Express Certificate (1260), see also www.sspa-association.ch"
+Underlying,3M Company (further details on the Underlying see below)
+"",Spot Reference Price USD 200.26
+"",Strike Price USD 200.26 (100.00% of the Spot Reference Price)
+"",Barrier USD 130.17 (65.00% of the Spot Reference Price)
+"",Coupon Level USD 160.21 (80.00% of the Spot Reference Price)
+"",Autocall Level USD 180.23 (90.00% of the Spot Reference Price)
+"","Number of Underlyings 4.99351 (fractions are paid out in cash, no accumulation)"
+Underlying,Altria Group Inc. (further details on the Underlying see below)
+"",Spot Reference Price USD 55.71
+"",Strike Price USD 55.71 (100.00% of the Spot Reference Price)
+"",Barrier USD 36.21 (65.00% of the Spot Reference Price)
+"",Coupon Level USD 44.57 (80.00% of the Spot Reference Price)
+"",Autocall Level USD 50.14 (90.00% of the Spot Reference Price)
+"","Number of Underlyings 17.9501 (fractions are paid out in cash, no accumulation)"
+Underlying,The Kraft Heinz Company (further details on the Underlying see below)

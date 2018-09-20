@@ -7,10 +7,25 @@ date and time manipulation and arithmetic is very important and can get quite co
 thus it is quite common that we will need to compute with dates, either to switch date formats, or switch to a time interval unit that is more convenient for the task at hand. there are many famous examples of smart people getting datetime conversions wrong with serious consequences.
 
 # get current datetime
+- default formats
+- time intervals
 - unix epoch
 
 # read dates, convert formats
+- common formats
+- convert between formats
+- iso date format
+
 
 # extract units
+- year
+- quarter
+- month
 - ISO week
-- 
+- weekday
+- day of month
+- day of year
+
+# date time arithmetic
+- date of + 1 week from wednesday.
+

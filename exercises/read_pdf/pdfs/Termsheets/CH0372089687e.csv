@@ -1,0 +1,31 @@
+"",text in the Issuance Programme)
+Guarantor,"Vontobel Holding AG, Zurich (Moody's A3)"
+Lead Manager,"Bank Vontobel AG, Zurich"
+"Paying, exercise and calculation agent","Bank Vontobel AG, Zurich"
+SSPA product type,"Bonus Certificate (1320), see also www.sspa-association.ch"
+"",
+Underlying,Apple Inc. (further details on the underlying see below)
+Spot reference price,USD 169.71
+Number of underlyings,"1.00 (fractions are paid out in cash, no accumulation)"
+"",
+Issue price,USD 169.7100
+Strike price,USD 195.51 (115.20% of the spot reference price)
+Cap,USD 195.51 (115.2% of the spot reference price)
+Barrier,USD 135.77 (80.00% of the spot reference price)
+Barrier monitoring,"November 01, 2017 until November 01, 2018, continuous monitoring"
+"",
+Initial fixing,"November 01, 2017 11:56 hours CET"
+Payment,"November 08, 2017"
+Last trading day,"November 01, 2018 17:00 hours CET"
+Final fixing,"November 01, 2018; Closing price on the reference stock exchange"
+Redemption,"November 08, 2018"
+"",
+Reference currency,"USD; issue, trading and redemption are in the reference currency"
+Swiss Sec. No. / ISIN / Vontobel Symbol,37208968 / CH0372089687 / -
+Redemption/delivery,"- If the underlying never touches or breaches the barrier during barrier monitoring, cash"
+"","compensation is paid according to the final fixing price of the underlying, but at least the strike"
+"","price and no more than the cap, multiplied by the specified number of underlyings."
+"","- However, if the underlying touches or breaches the barrier during barrier monitoring,"
+"",redemption is as follows:
+"","1. If the final fixing of the underlying is lower than the cap, a physical delivery of the"
+"",specified number of underlyings is made; fractions are not accumulated and are paid

@@ -1,0 +1,38 @@
+Issuer,"Bank Vontobel AG, Zürich (Standard & Poor’s A+; Moody’s A1)"
+Lead Manager,"Bank Vontobel AG, Zurich"
+"Paying, Exercise and Calculation Agent","Bank Vontobel AG, Zurich"
+SSPA product type,"Constant Leverage Certificate (2300), see also www.svsp-verband.ch"
+Special notice regarding risks,Factor Certificates are exposed to – possibly substantial – price fluctuations and involve the risk of considerable
+"","losses. In unfavourable circumstances, despite the threshold provided for in the Factor Certificate and the"
+"","underlying (Factor Index), a loss (including intra-day) may arise that is very close in financial terms to a total"
+"",loss of the capital invested (including any costs arising in connection with the purchase of a Factor Certificate).
+"",The investor must also be aware that possible price losses can also arise in the event of a sideways movement
+"",(price alternately rises and falls) by the reference security.
+"","Prior to investing in Factor Certificates, investors are advised to read all risk information (including ""Significant"
+"","risks for investors"" below) and seek expert advice on the risks associated with the specific product."
+"",
+Underlying (Factor Index),4X Short Index linked to Syngenta AG
+"",(further details on the underlying see below “Underlying Description and ”Concept (Factor Index)”)
+Spot reference at issuance,CHF 100.00
+"",
+Issue price,CHF 10.00
+Ratio,1 Factor Certificate corresponds to 0.1 “4X Short Index linked to Syngenta AG”
+"",
+Initial fixing,"March 31, 2014"
+Payment date,"April 7, 2014"
+Maturity,Open End
+"",
+Reference currency,"CHF; Issue, trading and redemption will follow in the reference currency"
+Swiss Sec. Number / ISIN / TK Symbol,2408 5278 / CH0240852787 / FI4SSY
+"",
+Valuation date,The valuation date corresponds to the respective termination date or exercise day (as defined below in
+"",“Issuer's right to call” and “Exercise rights of the investor”).
+"",
+"","Where the valuation date is not an ""index day"" (i.e. a day on which the Index Calculation Agent normally"
+"",calculates and publishes the underlying (Factor Index) in accordance with the index concept on which the
+"","underlying is based (see index guide)), the valuation date is postponed to the following index day."
+Amount payable,"The amount payable corresponds, taking into account the ratio, to the reference price of the underlying"
+"","(Factor Index) on the relevant valuation date, where applicable converted into the reference currency (at its"
+"","own discretion, the Calculation Agent determines the exchange rate on the valuation date at the time of"
+"",determining the reference price).
+"",Payment is made 5 (five) banking days after the valuation date.
