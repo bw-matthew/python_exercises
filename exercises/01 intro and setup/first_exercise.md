@@ -1,17 +1,16 @@
 introduction and setup
 ===
 # introduction
-today's exercise is very simple. we will be
+today's workshop is very simple. we will be
 - defining how we will work on these exercises
 - checking whether participants have the prerequisites
 - install prerequisites as necessary
 - test project: fetch a list of files in a directory
-- first exercise: 
+ 
 # what is this all about
-
 the purpose of these exercises is to provide a venue for data science team members to help each other develop the necessary python skills and hopefully out outgrow them and have fun with python. we should be learning something useful and/or interesting each time.
 
-we will be helping each other learn. i am no python expert
+we will be helping each other learn. there is no sage on this stage, but a guide to the side. i am no python expert
 
 # installing prerequisites
 

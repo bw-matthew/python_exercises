@@ -170,9 +170,7 @@ for filepath in filelist_by_size:
     print(filepath, os.path.getsize(filepath))
 
 
-
-pattern = re.compile(".*\.dat$")
-
+# more general patterns
 import re
 pattern = re.compile(".*\.dat$")
 def scrape_directory_tree(starting_dir, file_pattern):
@@ -185,34 +183,6 @@ def scrape_directory_tree(starting_dir, file_pattern):
     return matching_files
 
 
-data_files = []
-for root, dirs, files in os.walk(".", topdown=True):
-   for name in files:
-       # name is a name of a file (not a directory)
-       if pattern.match(name):
-          data_files.append(os.path.join(root, name))
-
-print(data_files)
-
-for filepath in data_files:
-    print(filepath, os.path.getsize(filepath))
-
-for filepath in sorted_files:
-    print(filepath, os.path.getsize(filepath))
-
-import os, operator, sys
-dirpath = os.path.abspath(sys.argv[0])
-# make a generator for all file paths within dirpath
-all_files = ( os.path.join(basedir, filename) for basedir, dirs, files in os.walk(dirpath) for filename in files   )
-
-
-# make a generator for tuples of file path and size: ('/Path/to/the.file', 1024)
-files_and_sizes = ( (path, os.path.getsize(path)) for path in all_files )
-sorted_files_with_size = sorted( files_and_sizes, key = operator.itemgetter(1) )
-
-
-for index, element in enumerate(a_list):
-    print(index, '-->', element)
 
 # ask the slack channel
 # /poll "what do you think of the difficulty level of the first workshop?" "too easy, it is not interesting" "fine, i both learned something and leveraged stuff i already knew" "too hard, too many new things, at least for the time allotted"
