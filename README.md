@@ -64,11 +64,19 @@ for n,listitem in enumerate(mylist):
       (output: {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5})
 ```
 
-## 01 read and write data
-- first exercise. useful commands for reading csv, json, 
+## 01 access the file system
+- first exercise. useful commands for traversing the file system structure
 - `os.path.exists`
 - `os.path.isfile`
 - `os.path.isdir`
+### Exercise
+- create a new function
+- traverses a directory tree
+- collects file of a certain type and orders them by a metric
+
+
+## 02 read and write data
+- useful commands for reading csv, json, pickle, ...
 - `with open`
 - `pandas.read_csv`
 - working with JSON
