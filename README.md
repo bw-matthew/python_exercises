@@ -55,20 +55,20 @@ the design goal of each workshop is that they 1) tackle some useful aspect of pr
 - list comprehension
 - writing functions
 - pyperclip.copy()/pyperclip.paste()?
-```
-mylist = ['A','B','C','D']
-for n,listitem in enumerate(mylist):
-    print(n, listitem)
 
-{L: n+1 for n, L in enumerate(chr(65+i) for i in range(5))}
-      (output: {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5})
-```
-
-## 01 read and write data
-- first exercise. useful commands for reading csv, json, 
+## 01 access the file system
+- first exercise. useful commands for traversing the file system structure
 - `os.path.exists`
 - `os.path.isfile`
 - `os.path.isdir`
+### Exercise
+- create a new function
+- traverses a directory tree
+- collects file of a certain type and orders them by a metric
+
+## 02 read and write data
+- useful commands for reading csv, json, pickle, 
+- writing 
 - `with open`
 - `pandas.read_csv`
 - working with JSON
@@ -81,37 +81,17 @@ for n,listitem in enumerate(mylist):
   + pickle 'pointer chains'
   + pickle.load() (repeatedly)
 
-```{python}
-    objects = []
-    with (open("myfile", "rb")) as openfile:
-      while True:
-          try:
-              objects.append(pickle.load(openfile))
-          except EOFError:
-              break
-```
-
-
-```{python}
-
-    from collections import defaultdict
-    s = 'mississippi'
-    d = defaultdict(int)
-    for k in s:
-         d[k] += 1
-    
-    d.items() # output: [('i', 4), ('p', 2), ('s', 4), ('m', 1)]
-```
 
 ### Exercise
-- create a new function
-- list a directory
-- read in all pickled files in it
+- read a csv file
+- read a json file
+- read a pickle file
 - get a summary of the contents
-- export as csv
-- export as JSON
+- write data to json
+- look into the file to make sure that the contents are as expected
 
 ## 02 data manipulation (pipelines)
+- dictionaries
 - pandas data frames
 - read in from file (pickle)
 - filter out rows
@@ -152,13 +132,6 @@ based on examples from [here](https://docs.python.org/3/library/stdtypes.html?hi
 - `ljust()`
 - `center()`
 - `'-'.join('There can be only one.'.split())`
-```
-
-    import pyperclip
-    pyperclip.copy('Hello world!')
-    pyperclip.paste()
-    'Hello world!'
-```
 
 - `copy()` (import pyperclip)
 - `paste()`
@@ -180,6 +153,7 @@ based on examples from [here](https://docs.python.org/3/library/stdtypes.html?hi
 - web scraping
 
 ## 05 dates and times
+- format numbers for presentation/ rounding. 
 - date time objects
 - convert date formats
 - extract century, year, quarter, month, weekday, day, hour
@@ -190,15 +164,8 @@ based on examples from [here](https://docs.python.org/3/library/stdtypes.html?hi
 ## 06 numerical computation
 - numpy
 - numerical precision
-- format numbers for presentation/ rounding. 
 - matrices
 - linear algebra
-```
-
-    def distance(p1, p2) :
-        (sum((wi - vi)**2 for  in zip(p1, p2)))**.5
-    print distance((0,0,0), (5,4,3))
-```
 ## 07 graphing
 - ? (do not know much about plotting with python) 
 - billijoe? ali?
@@ -208,6 +175,7 @@ based on examples from [here](https://docs.python.org/3/library/stdtypes.html?hi
 - exercise: reproduce a plot with shared data and output to pdf
 
 ## 08 spark
+- maybe dan or phil or ali can help here?
 - spark session
 - spark sql
 - spark dataframe
@@ -240,3 +208,4 @@ participants in the tutorial can add their solutions/musings/code into a self-na
 
 # notes
 a list of documentation and links to helpful sources explaining features discussed in greater detail.
+ 
