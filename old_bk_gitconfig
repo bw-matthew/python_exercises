@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:oh-data-sci/python_exercises.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = pfairfax1
+	merge = refs/heads/master
+[remote "pfairfax1"]
+	url = git@github.com:pfairfax1/python_exercises.git
+	fetch = +refs/heads/*:refs/remotes/pfairfax1/*
