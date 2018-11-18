@@ -208,4 +208,7 @@ participants in the tutorial can add their solutions/musings/code into a self-na
 
 # notes
 a list of documentation and links to helpful sources explaining features discussed in greater detail.
- 
+
+
+# links
+[green tea press' think python book (free)](https://greenteapress.com/thinkpython2/thinkpython2.pdf)
