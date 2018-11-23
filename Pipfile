@@ -8,6 +8,7 @@ jupyter = "*"
 requests = "*"
 "beautifulsoup4" = "*"
 pandas = "*"
+pathlib = "*"
 
 [dev-packages]
 
