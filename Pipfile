@@ -9,6 +9,9 @@ requests = "*"
 "beautifulsoup4" = "*"
 pandas = "*"
 pathlib = "*"
+plotly = "*"
+statsmodels = "*"
+scipy = "*"
 
 [dev-packages]
 
