@@ -12,6 +12,7 @@ pathlib = "*"
 plotly = "*"
 statsmodels = "*"
 scipy = "*"
+numpy = "*"
 
 [dev-packages]
 
