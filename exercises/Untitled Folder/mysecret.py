@@ -1,0 +1,1 @@
+nyt_api_key = 'a8a4a4dfd7b84a5e92c43cbcabab5186'
