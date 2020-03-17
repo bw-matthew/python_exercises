@@ -1,5 +1,5 @@
 [[source]]
-url = "https://nexus.brandwatch.net/repository/pypi-all/simple"
+url = "https://$ARTIFACTORY_USERNAME:$ARTIFACTORY_PASSWORD@artifactory.brandwatch.com/artifactory/api/pypi/pypi/simple"
 verify_ssl = true
 name = "pypi"
 
